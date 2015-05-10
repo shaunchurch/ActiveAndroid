@@ -115,6 +115,9 @@ final class ModelInfo {
 				catch (IllegalAccessException e) {
 					Log.e("IllegalAccessException", e);
 				}
+				catch (IncompatibleClassChangeError e) {
+					Log.e("IncompatibleClassChangeError", e);
+				}
 			}
 		}
 
